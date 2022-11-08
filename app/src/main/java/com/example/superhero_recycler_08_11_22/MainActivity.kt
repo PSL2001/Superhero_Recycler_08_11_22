@@ -2,6 +2,7 @@ package com.example.superhero_recycler_08_11_22
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.superhero_recycler_08_11_22.adapters.SuperHeroAdapter
 import com.example.superhero_recycler_08_11_22.databinding.ActivityMainBinding
