@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setRecycler() {
+        //Los recyclers necesetian un layout manager y un adapter
         val layoutManager = LinearLayoutManager(this)
         binding.rvView.layoutManager = layoutManager
         val adapter = SuperHeroAdapter(SuperHeroProvider.lista)
